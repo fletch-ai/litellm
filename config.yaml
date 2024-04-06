@@ -1,7 +1,7 @@
 model_list:
   - model_name: gpt-4-vision-preview
     litellm_params:
-      model: azure/gpt-4-vision
+      model: azure/gpt-4-vision-preview
       api_base: https://fletch-prod-21.openai.azure.com/
       api_key: os.environ/AZURE_PROD-21_API_KEY
       api_version: "2024-02-15-preview"
@@ -10,7 +10,7 @@ model_list:
       stream_timeout: 60
   - model_name: gpt-4-vision-preview
     litellm_params:
-      model: azure/gpt-4-vision
+      model: azure/gpt-4-vision-preview
       api_base: https://fletch-prod-17.openai.azure.com/
       api_key: os.environ/AZURE_PROD-17_API_KEY
       api_version: "2024-02-15-preview"
@@ -19,7 +19,7 @@ model_list:
       stream_timeout: 60
   - model_name: gpt-4-vision-preview
     litellm_params:
-      model: azure/gpt-4-vision
+      model: azure/gpt-4-vision-preview
       api_base: https://fletch-prod-16.openai.azure.com/
       api_key: os.environ/AZURE_PROD-16_API_KEY
       api_version: "2024-02-15-preview"
@@ -28,7 +28,7 @@ model_list:
       stream_timeout: 60
   - model_name: gpt-4-vision-preview
     litellm_params:
-      model: azure/gpt-4-vision
+      model: azure/gpt-4-vision-preview
       api_base: https://fletch-prod-15.openai.azure.com/
       api_key: os.environ/AZURE_PROD-15_API_KEY
       api_version: "2024-02-15-preview"
@@ -37,7 +37,7 @@ model_list:
       stream_timeout: 60
   - model_name: gpt-4-vision-preview
     litellm_params:
-      model: azure/gpt-4-vision
+      model: azure/gpt-4-vision-preview
       api_base: https://fletch-prod-14.openai.azure.com/
       api_key: os.environ/AZURE_PROD-14_API_KEY
       api_version: "2024-02-15-preview"
@@ -846,19 +846,19 @@ model_list:
         threshold: BLOCK_NONE
   - model_name: claude-3-sonnet
     litellm_params:
-      model: vertex_ai/claude-3-sonnet
+      model: vertex_ai/claude-3-sonnet@20240229
       vertex_project: "trending-threats"
       vertex_location: "us-central1"
       rpm: 60
   - model_name: claude-3-sonnet
     litellm_params:
-      model: vertex_ai/claude-3-sonnet
+      model: vertex_ai/claude-3-sonnet@20240229
       vertex_project: "trending-threats"
       vertex_location: "europe-west4"
       rpm: 60
   - model_name: claude-3-sonnet
     litellm_params:
-      model: vertex_ai/claude-3-sonnet
+      model: vertex_ai/claude-3-sonnet@20240229
       vertex_project: "trending-threats"
       vertex_location: "asia-southeast1"
       rpm: 60
