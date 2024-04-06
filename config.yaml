@@ -1,5 +1,5 @@
 model_list:
-  - model_name: gpt-4-vision
+  - model_name: gpt-4-vision-preview
     litellm_params:
       model: azure/gpt-4-vision
       api_base: https://fletch-prod-21.openai.azure.com/
@@ -8,7 +8,7 @@ model_list:
       rpm: 30
       timeout: 300
       stream_timeout: 60
-  - model_name: gpt-4-vision
+  - model_name: gpt-4-vision-preview
     litellm_params:
       model: azure/gpt-4-vision
       api_base: https://fletch-prod-17.openai.azure.com/
@@ -17,7 +17,7 @@ model_list:
       rpm: 30
       timeout: 300
       stream_timeout: 60
-  - model_name: gpt-4-vision
+  - model_name: gpt-4-vision-preview
     litellm_params:
       model: azure/gpt-4-vision
       api_base: https://fletch-prod-16.openai.azure.com/
@@ -26,7 +26,7 @@ model_list:
       rpm: 30
       timeout: 300
       stream_timeout: 60
-  - model_name: gpt-4-vision
+  - model_name: gpt-4-vision-preview
     litellm_params:
       model: azure/gpt-4-vision
       api_base: https://fletch-prod-15.openai.azure.com/
@@ -35,7 +35,7 @@ model_list:
       rpm: 30
       timeout: 300
       stream_timeout: 60
-  - model_name: gpt-4-vision
+  - model_name: gpt-4-vision-preview
     litellm_params:
       model: azure/gpt-4-vision
       api_base: https://fletch-prod-14.openai.azure.com/
