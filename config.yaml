@@ -1,4 +1,49 @@
 model_list:
+  - model_name: gpt-4-vision
+    litellm_params:
+      model: azure/gpt-4-vision
+      api_base: https://fletch-prod-21.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-21_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 30
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-vision
+    litellm_params:
+      model: azure/gpt-4-vision
+      api_base: https://fletch-prod-17.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-17_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 30
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-vision
+    litellm_params:
+      model: azure/gpt-4-vision
+      api_base: https://fletch-prod-16.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-16_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 30
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-vision
+    litellm_params:
+      model: azure/gpt-4-vision
+      api_base: https://fletch-prod-15.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-15_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 30
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-vision
+    litellm_params:
+      model: azure/gpt-4-vision
+      api_base: https://fletch-prod-14.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-14_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 30
+      timeout: 300
+      stream_timeout: 60
   - model_name: gpt-4-turbo-preview
     litellm_params:
       model: azure/gpt-4-turbo
