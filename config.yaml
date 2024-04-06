@@ -844,6 +844,24 @@ model_list:
         threshold: BLOCK_NONE
       - category: HARM_CATEGORY_DANGEROUS_CONTENT
         threshold: BLOCK_NONE
+  - model_name: claude-3-sonnet
+    litellm_params:
+      model: vertex_ai/claude-3-sonnet
+      vertex_project: "trending-threats"
+      vertex_location: "us-central1"
+      rpm: 60
+  - model_name: claude-3-sonnet
+    litellm_params:
+      model: vertex_ai/claude-3-sonnet
+      vertex_project: "trending-threats"
+      vertex_location: "europe-west4"
+      rpm: 60
+  - model_name: claude-3-sonnet
+    litellm_params:
+      model: vertex_ai/claude-3-sonnet
+      vertex_project: "trending-threats"
+      vertex_location: "asia-southeast1"
+      rpm: 60
 
 router_settings:
   routing_strategy: "latency-based-routing"
