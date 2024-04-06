@@ -370,6 +370,435 @@ model_list:
       vertex_project: "trending-threats"
       vertex_location: "us-central1"
       rpm: 300
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "asia-east1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "asia-east2"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "asia-northeast1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "asia-northeast3"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "asia-south1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "asia-southeast1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "australia-southeast1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "europe-central2"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "europe-north1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "europe-southwest1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "europe-west1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "europe-west2"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "europe-west3"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "europe-west4"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "europe-west6"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "europe-west8"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "europe-west9"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "me-central1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "me-central2"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "me-west1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "northamerica-northeast1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "southamerica-east1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "us-east1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "us-east4"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "us-east5"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "us-south1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "us-west1"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "us-west4"
+      rpm: 10
+      safety_settings:
+      - category: HARM_CATEGORY_HARASSMENT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_HATE_SPEECH
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+        threshold: BLOCK_NONE
+      - category: HARM_CATEGORY_DANGEROUS_CONTENT
+        threshold: BLOCK_NONE
 
 router_settings:
   routing_strategy: "latency-based-routing"
@@ -388,7 +817,7 @@ litellm_settings:
     type: "redis"
 
 general_settings:
-  database_connection_timeout: 120 # Wait 2 mins for DB connects
+  database_connection_timeout: 300 # Wait 5 mins for DB connects
   alerting: ["slack"]
   alerting_threshold: 300
   disable_reset_budget: True
