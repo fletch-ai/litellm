@@ -1,0 +1,395 @@
+model_list:
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-1.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-1_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-4.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-4_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-8.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-8_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-11.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-11_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-12.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-12_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-13.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-13_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-14.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-14_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-16.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-16_API_KEY
+      api_version: "2023-07-01-preview"
+      rpm: 900
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-18.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-18_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-19.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-19_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 900
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-20.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-20_API_KEY
+      api_version: "2023-07-01-preview"
+      rpm: 900
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-turbo-preview
+    litellm_params:
+      model: azure/gpt-4-turbo
+      api_base: https://fletch-prod-21.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-21_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-32k
+    litellm_params:
+      model: azure/gpt-4-32k
+      api_base: https://fletch-prod-4.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-4_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 240
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-32k
+    litellm_params:
+      model: azure/gpt-4-32k
+      api_base: https://fletch-prod-11.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-11_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 720
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-32k
+    litellm_params:
+      model: azure/gpt-4-32k
+      api_base: https://fletch-prod-12.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-12_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-32k
+    litellm_params:
+      model: azure/gpt-4-32k
+      api_base: https://fletch-prod-14.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-14_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-32k
+    litellm_params:
+      model: azure/gpt-4-32k
+      api_base: https://fletch-prod-15.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-15_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-32k
+    litellm_params:
+      model: azure/gpt-4-32k
+      api_base: https://fletch-prod-16.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-16_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-32k
+    litellm_params:
+      model: azure/gpt-4-32k
+      api_base: https://fletch-prod-17.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-17_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-4-32k
+    litellm_params:
+      model: azure/gpt-4-32k
+      api_base: https://fletch-prod-18.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-18_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 480
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-3.5-turbo-1106
+    litellm_params:
+      model: azure/gpt-35-turbo
+      api_base: https://fletch-prod-21.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-21_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 720
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-3.5-turbo-1106
+    litellm_params:
+      model: azure/gpt-35-turbo
+      api_base: https://fletch-prod-20.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-20_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 720
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-3.5-turbo-1106
+    litellm_params:
+      model: azure/gpt-35-turbo
+      api_base: https://fletch-prod-9.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-9_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 720
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-3.5-turbo-1106
+    litellm_params:
+      model: azure/gpt-35-turbo
+      api_base: https://fletch-prod-14.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-14_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 720
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-3.5-turbo-1106
+    litellm_params:
+      model: azure/gpt-35-turbo
+      api_base: https://fletch-prod-16.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-16_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 720
+      timeout: 300
+      stream_timeout: 60
+  - model_name: gpt-3.5-turbo-1106
+    litellm_params:
+      model: azure/gpt-35-turbo
+      api_base: https://fletch-prod-18.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-18_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 720
+      timeout: 300
+      stream_timeout: 60
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod.openai.azure.com/
+      api_key: os.environ/AZURE_PROD_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 720
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-1.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-1_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 1440
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-5.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-5_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 1440
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-8.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-8_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 1440
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-11.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-11_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-12.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-12_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-13.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-13_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-14.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-14_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-15.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-15_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-16.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-16_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-17.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-17_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-18.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-18_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-19.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-19_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-20.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-20_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-ada-002
+    litellm_params:
+      model: azure/text-embedding-ada-002
+      api_base: https://fletch-prod-21.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-21_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-3-large
+    litellm_params:
+      model: azure/text-embedding-3-large
+      api_base: https://fletch-prod.openai.azure.com/
+      api_key: os.environ/AZURE_PROD_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-3-large
+    litellm_params:
+      model: azure/text-embedding-3-large
+      api_base: https://fletch-prod-11.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-11_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: text-embedding-3-large
+    litellm_params:
+      model: azure/text-embedding-3-large
+      api_base: https://fletch-prod-12.openai.azure.com/
+      api_key: os.environ/AZURE_PROD-12_API_KEY
+      api_version: "2024-02-15-preview"
+      rpm: 2100
+  - model_name: gemini-pro
+    litellm_params:
+      model: gemini/gemini-pro
+      api_key: os.environ/GEMINI_API_KEY
+      rpm: 360
+  - model_name: gemini-1.0-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.0-pro
+      vertex_project: "trending-threats"
+      vertex_location: "us-central1"
+      rpm: 300
+
+router_settings:
+  routing_strategy: "latency-based-routing"
+  routing_strategy_args: {"ttl": 10} # Average the last 10 calls to compute avg latency per model
+  allowed_fails: 1
+  num_retries: 3
+  retry_after: 5 # seconds to wait before retrying a failed request
+  cooldown_time: 30 # seconds to cooldown a deployment after failure
+
+litellm_settings:
+  success_callback: ["langfuse"] # Use Langfuse for tracing
+  drop_params: True # Silently drop any parameters if not supported
+  budget_duration: 30d # Frequency of budget reset
+  cache: True
+  cache_params:
+    type: "redis"
+
+general_settings:
+  database_connection_timeout: 120 # Wait 2 mins for DB connects
+  alerting: ["slack"]
+  alerting_threshold: 300
+  disable_reset_budget: True
+  disable_spend_logs: True
