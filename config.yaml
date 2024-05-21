@@ -893,9 +893,9 @@ litellm_settings:
   success_callback: ["langfuse"] # Use Langfuse for tracing
   drop_params: True # Silently drop any parameters if not supported
   budget_duration: 30d # Frequency of budget reset
-  cache: True
-  cache_params:
-    type: "redis"
+#  cache: True
+#  cache_params:
+#    type: "redis"
 
 general_settings:
   database_connection_timeout: 300 # Wait 5 mins for DB connects
